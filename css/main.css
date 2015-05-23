@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    overflow-x: hidden !important;
+    width: 98.9vw !important;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 60px;
     background-color: #efefef;
@@ -119,4 +119,16 @@ body {
 
 .ui.progress {
     margin-bottom: 1em !important;
+}
+
+.ui.card .visible.content, .ui.card .content {
+    height: 200px;
+}
+
+.ui.card .extra.content {
+    height: auto;
+}
+
+.fb-login-button {
+    left: 34%;
 }
