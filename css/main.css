@@ -120,3 +120,11 @@ body {
 .ui.progress {
     margin-bottom: 1em !important;
 }
+
+.ui.card .visible.content, .ui.card .content {
+    height: 200px;
+}
+
+.ui.card .extra.content {
+    height: auto;
+}
