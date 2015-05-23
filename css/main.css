@@ -26,14 +26,45 @@ body {
 
 .container {
     margin: auto !important;
-    margin-top: 10px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .slideshow-container {
     padding: 0 !important;
-    height: 80vh;
+    height: 85vh;
+    background: url("../resource/16.jpg");
+    background-position: center 15%;
+    background-size: cover;
+}
+
+.slideshow {
+    background: none !important;
 }
 
 .ui.buttons .or:before {
     content: '或';
+}
+
+.navbar {
+    margin: 0 auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.ui .card {
+    margin: 0 auto !important;
+}
+
+.title {
+    top: 25vh;
+}
+
+.title h1 {
+    font-size: 72px !important;
+}
+
+.title * {
+    color: white !important;
+    font-size: 48px;
 }
