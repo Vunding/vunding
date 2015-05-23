@@ -58,10 +58,10 @@
         <div class="row">
             <div class="ten wide column">
                 <div class="ui top attached tabular menu">
-                    <div class="orange active item">專案內容</div>
-                    <div class="item">專案進度</div>
+                    <div class="orange active item" data-tab="first">專案內容</div>
+                    <div class="item" data-tab="second">專案進度</div>
                 </div>
-                <div class="ui bottom attached active tab segment">
+                <div class="ui bottom attached active tab segment" data-tab="first">
                     <h3>弱勢兒童</h3>
                     <p>
                         你是否曾經想過同一座城市的孩子的資訊以及生活環境落差倒底有多大？你有 沒有想過因為你的關注可以帶給他全世界？
@@ -107,11 +107,13 @@
                         </li>
                     </ol>
                 </div>
+                <div class="ui bottom attached active tab segment" data-tab="second"></div>
             </div>
             <div class="six wide column">
                 <div class="ui orange segment">
-                    目標資金：NTD$200,000
-                    <br>志工招募：10 名
+                    <strong>目標資金：NTD$200,000</strong>
+                    <br>
+                    <strong>志工招募：10 名</strong>
                     <br>
                     <br>
                     <div class="ui indicating progress" data-percent="80">
