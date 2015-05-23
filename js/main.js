@@ -13,6 +13,10 @@ $('.ui-login').click(function() {
     $('.ui-login-modal').modal('show');
 });
 
+$('.ui-case-1').click(function() {
+    location.href = './case.html';
+});
+
 function hideAllSections() {
     $('.ui-register-modal').modal('hide');
     $('.ui-register-modal-select-section').hide();
