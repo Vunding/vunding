@@ -2,6 +2,8 @@ $('.progress').progress();
 
 $('.ui.modal').modal();
 
+$('.menu .item').tab();
+
 $('.ui-register').click(function() {
     $('.ui-register-modal').modal('show');
     hideAllSections();
