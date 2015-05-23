@@ -47,9 +47,9 @@
                         <h1 class="ui huge header"><div class="logo large"></div> Vunding</h1>
                         <h2>為弱勢募資</h2>
                         <div class="ui buttons">
-                            <div class="ui orange button">註冊</div>
+                            <div class="ui orange button ui-register">註冊</div>
                             <div class="or"></div>
-                            <div class="ui teal button">登入</div>
+                            <div class="ui teal button ui-login">登入</div>
                         </div>
                     </div>
                 </div>
@@ -183,6 +183,159 @@
             </div>
         </div>
     </div>
+    <div class="ui modal ui-register-modal">
+        <i class="close icon"></i>
+        <div class="ui header center aligned">
+            註冊
+        </div>
+        <div class="content ui-register-modal-select-section">
+            <form class="ui form header center aligned">
+                <div class="ui huge buttons">
+                    <div class="ui orange button ui-register-modal-facility">我是
+                        <br>
+                        <h1>社福團體</h1>
+                    </div>
+                    <div class="or" style="top:30px;"></div>
+                    <div class="ui teal button ui-register-modal-volunteer">我是
+                        <br>
+                        <h1>&nbsp;&nbsp;志願者&nbsp;&nbsp;</h1>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="content ui-register-modal-facility-section" style="display:none;">
+            <form class="ui form">
+                <h4 class="ui dividing header">社福團體註冊</h4>
+                <div class="two fields">
+                    <div class="required field">
+                        <label>機構名稱</label>
+                        <div class="ui icon input">
+                            <input type="text" placeholder="您的機構名稱">
+                        </div>
+                    </div>
+                    <div class="required field">
+                        <label>聯絡人</label>
+                        <div class="ui icon input">
+                            <input type="text" placeholder="您的機構聯絡人">
+                        </div>
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="required field">
+                        <label>聯絡電話</label>
+                        <div class="ui icon input">
+                            <input type="phone" placeholder="您的機構電話">
+                        </div>
+                    </div>
+                    <div class="required field">
+                        <label>地址</label>
+                        <div class="ui icon input">
+                            <input type="address" placeholder="您的機構地址">
+                        </div>
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="required field">
+                        <label>Email</label>
+                        <div class="ui icon input">
+                            <input type="email" placeholder="exmaple@example.com">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>機構網址</label>
+                        <div class="ui icon input">
+                            <input type="url" placeholder="http://www.example.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="field">
+                        <label>備註</label>
+                        <div class="ui icon input">
+                            <input type="text" placeholder="有什麼想說的？">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="ui header right aligned">
+                <div class="ui reset button">重設</div>
+                <div class="ui submit blue button">送出</div>
+            </div>
+        </div>
+        <div class="content ui-register-modal-volunteer-section" style="display:none;">
+            <form class="ui form">
+                <h4 class="ui dividing header">志願者註冊</h4>
+                <div class="two fields">
+                    <div class="required field">
+                        <label>帳號</label>
+                        <div class="ui icon input">
+                            <input type="text" placeholder="您的帳號">
+                            <i class="user icon"></i>
+                        </div>
+                    </div>
+                    <div class="required field">
+                        <label>密碼</label>
+                        <div class="ui icon input">
+                            <input type="password" placeholder="您的密碼">
+                            <i class="lock icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="required field">
+                        <label>Email</label>
+                        <div class="ui icon input">
+                            <input type="email" placeholder="exmaple@example.com">
+                        </div>
+                    </div>
+                    <div class="required field">
+                        <label>確認密碼</label>
+                        <div class="ui icon input">
+                            <input type="password" placeholder="您的密碼">
+                            <i class="lock icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="ui horizontal divider">或</div>
+            <div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="true">透過 Facebook 註冊</div>
+            <div class="ui header right aligned">
+                <div class="ui submit blue button">註冊</div>
+            </div>
+        </div>
+    </div>
+    <div class="ui modal ui-login-modal">
+        <i class="close icon"></i>
+        <div class="ui header center aligned">
+            登入
+        </div>
+        <div class="content">
+            <form class="ui form">
+                <div class="two fields">
+                    <div class="required field">
+                        <label>帳號</label>
+                        <div class="ui icon input">
+                            <input type="text" placeholder="您的帳號">
+                            <i class="user icon"></i>
+                        </div>
+                    </div>
+                    <div class="required field">
+                        <label>密碼</label>
+                        <div class="ui icon input">
+                            <input type="password" placeholder="您的密碼">
+                            <i class="lock icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="ui horizontal divider">或</div>
+            <div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="true">透過 Facebook 登入</div>
+            <div class="ui header right aligned">
+                <div class="ui submit blue button">登入</div>
+            </div>
+        </div>
+    </div>
+
     <div id="fb-root"></div>
 
     <script src="js/ga.js" async defer></script>

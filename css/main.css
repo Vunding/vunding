@@ -128,3 +128,7 @@ body {
 .ui.card .extra.content {
     height: auto;
 }
+
+.fb-login-button {
+    left: 34%;
+}
