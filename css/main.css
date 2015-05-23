@@ -6,11 +6,13 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 60px;
+    background-color: #efefef;
 }
 
 .ui .message {
     padding-top: 30px !important;
     padding-bottom: 50px !important;
+    box-shadow: none;
 }
 
 .ui .button {
@@ -20,4 +22,18 @@ body {
 .fb-like {
     vertical-align: middle;
     float: right;
+}
+
+.container {
+    margin: auto !important;
+    margin-top: 10px !important;
+}
+
+.slideshow-container {
+    padding: 0 !important;
+    height: 80vh;
+}
+
+.ui.buttons .or:before {
+    content: '或';
 }
